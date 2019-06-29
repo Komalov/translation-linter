@@ -1,0 +1,17 @@
+{
+  "name": "translation-linter",
+  "description": "cli tool for checking if all used keys are exist in translation file ",
+  "version": "0.0.1",
+  "main": "bin/index.js",
+  "author": {
+    "name": "komalov",
+    "email": "dmitrykomalov@gmail.com"
+  },
+  "bin": {
+    "translation-linter": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "jscodeshift": "^0.6.4"
+  }
+}
